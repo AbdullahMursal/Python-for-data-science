@@ -1,0 +1,12 @@
+n =int(input("Enter a number"))
+if n%2 != 0:
+ print("Weired")
+
+if n%2 == 0 and 2<= n <=5:
+ print("Not Weired") 
+
+if n%2 == 0 and 6<= n <=20:
+ print("Weired")
+
+if n%2 == 0 and 20< n:
+  print("Not Weired") 
