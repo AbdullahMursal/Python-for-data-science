@@ -11,7 +11,7 @@ student["cgpa"]=3.5
 
 student["age"]=21
 
-for key,value in student:
+for key,value in student.items():
     print(key,value)
 
 
